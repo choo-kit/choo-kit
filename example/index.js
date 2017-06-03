@@ -98,7 +98,6 @@ function mainView (state, emit) {
           <ul class="${listPrefix} mb0">
             <li class="mb1"><a href="#button" class="underline-hover">@choo-kit/button</a></li>
             <li class="mb1"><a href="#dropdown" class="underline-hover">@choo-kit/dropdown</a></li>
-            <li class="mb1"><a href="/" class="underline-hover">@choo-kit/notification</a></li>
           </ul>
         </section>
 
