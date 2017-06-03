@@ -4,8 +4,8 @@ A set of essential components for the choo framework.
 
 ## Components
 
-- @choo-kit/button
-- @choo-kit/dropdown
+- [@choo-kit/button](#choo-kitbutton)
+- [@choo-kit/dropdown](#choo-kitdropdown)
 
 ### @choo-kit/button
 
