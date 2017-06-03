@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "description": "A set of essential components for the choo framework.",
+  "browserify": {
+    "transform": [
+      "sheetify/transform"
+    ]
+  },
+  "scripts": {
+    "dev": "bankai -c [ -u sheetify-nested ] start example"
+  },
+  "dependencies": {
+    "bel": "^5.0.0",
+    "sheetify": "^6.0.2"
+  },
+  "devDependencies": {
+    "bankai": "^7.6.2",
+    "choo": "^5.6.2",
+    "lerna": "^2.0.0-rc.5",
+    "sheetify-nested": "^1.0.2",
+    "tachyons": "^4.7.4"
+  }
+}
