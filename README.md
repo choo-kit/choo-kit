@@ -15,15 +15,17 @@ A set of essential components for the choo framework.
 npm i @choo-kit/button
 ```
 
-#### Parameters
+#### Documentation
 
-- children
+- Parameters:
 
-- opts *(optional)*
+  - children
 
-#### Usage
+  - opts *(optional)*
 
-``button(children, opts?)``
+- Usage:
+
+  - ``button(children, opts?)``
 
 ## License
 
