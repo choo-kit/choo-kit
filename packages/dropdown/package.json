@@ -4,5 +4,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/choo-kit/choo-kit.git"
+  },
+  "dependencies": {
+    "@choo-kit/button": "^0.1.0",
+    "@choo-kit/icon": "^0.1.0",
+    "node-uuid": "^1.4.8"
   }
 }

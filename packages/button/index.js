@@ -1,10 +1,10 @@
-const assert = require('assert')
-const css = require('sheetify')
-const html = require('bel')
+var assert = require('assert')
+var css = require('sheetify')
+var html = require('bel')
 
-const prefix = css`
+var prefix = css`
   :host {
-
+    cursor: pointer;
   }
 `
 
@@ -24,5 +24,5 @@ function button (text, opts) {
     ? opts.click
     : null
 
-  return html`<button class="${classNames} bg-white ba b--black pv1 ph2 f6" onclick=${click}>${text}</button>`
+  return html`<button class="${classNames} bg-white hover-bg-black hover-white ba b--black pv2 ph3 f6" onclick=${click}>${text}</button>`
 }

@@ -10,8 +10,8 @@
     "dev": "bankai -c [ -u sheetify-nested ] start example"
   },
   "dependencies": {
-    "bel": "^5.0.0",
-    "sheetify": "^6.0.2"
+    "bel": "^5.0.2",
+    "sheetify": "^6.1.0"
   },
   "devDependencies": {
     "bankai": "^7.6.2",

@@ -120,8 +120,8 @@ function mainView (state, emit) {
           <div class="mb3">
             <h4 class="f5 black-80 ma0 mb2">EXAMPLE</h4>
             
-            <div class="pa3 ba b--dashed inline-flex">
-              <p class="mr3">You clicked the button ${state.count} times</p>
+            <div class="pa3 ba b--dashed dib">
+              <p class="mr3 dib">You clicked the button ${state.count} times</p>
               ${button('Click me', {
                 click: function () {
                   emit('increment', 1)
@@ -151,7 +151,12 @@ function mainView (state, emit) {
             <h4 class="f5 black-80 ma0 mb2">EXAMPLE</h4>
             
             <div class="pa3 ba b--dashed inline-flex">
-              ${dropdown('account.settings', [{label: 'Verify account'}, {label: 'Log out', click: function () { alert('Logout item fired') }}])(state, emit)}
+              ${dropdown([
+                {label: 'Select a package'},
+                {label: 'Log out', click: function () {
+                  alert('Logout item fired')
+                }}
+              ])(state, emit)}
             </div>
           </div>
         </section>
