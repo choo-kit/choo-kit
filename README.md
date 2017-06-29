@@ -9,15 +9,23 @@ A set of essential components for the choo framework.
 
 ### @choo-kit/button
 
-#### Parameters
+#### Installing
 
-- children
+```sh
+npm i @choo-kit/button
+```
 
-- opts *(optional)*
+#### Documentation
 
-#### Usage
+- Parameters:
 
-``button(children, opts?)``
+  - children
+
+  - opts *(optional)*
+
+- Usage:
+
+  - ``button(children, opts?)``
 
 ## License
 
